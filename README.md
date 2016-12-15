@@ -3,9 +3,12 @@
 
 
 ## Requirements
-libxml
-php_soap
+libxml<br />
+php_soap<br />
 [中華申請大宗包裹查詢服務申請(IP綁定)](http://postserv.post.gov.tw/webpost/CSController?cmd=POS4001_1&_SYS_ID=D&_MENU_ID=189&_ACTIVE_ID=190)
 
 ## 郵局接口測試
 [PSTTP_MailQuery](http://sprws.post.gov.tw/psttp_mailquery.asmx)
+
+## 測試外掛
+[Firefox SOA Client](https://addons.mozilla.org/zh-tw/firefox/addon/soa-client/)
