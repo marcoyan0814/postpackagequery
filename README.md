@@ -1,8 +1,7 @@
 # い地秎現狦琩高祘Α for PHP
-秎Ы籷琩高祘ΑㄏノSOAP﹃钡
+秎Ы籷琩高祘ΑㄏノSOAP﹃钡惠い地ビ叫ㄏノ﹙籷琩高
 
-
-## Requirements
+## 惠―
 libxml<br />
 php_soap<br />
 [い地ビ叫﹙籷琩高狝叭ビ叫(IP竕﹚)](http://postserv.post.gov.tw/webpost/CSController?cmd=POS4001_1&_SYS_ID=D&_MENU_ID=189&_ACTIVE_ID=190)
