@@ -11,3 +11,10 @@ php_soap<br />
 
 ## 測試外掛
 [Firefox SOA Client](https://addons.mozilla.org/zh-tw/firefox/addon/soa-client/)
+
+## 第三方套件
+[jQuery](https://jquery.com/)<br />
+[BlockUI](http://malsup.com/jquery/block/)<br />
+[Bootstrap 3](http://getbootstrap.com/)<br />
+[bootstrap-table](http://bootstrap-table.wenzhixin.net.cn/)<br />
+[bootbox](http://bootboxjs.com/)

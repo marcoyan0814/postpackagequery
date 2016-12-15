@@ -90,36 +90,12 @@ function arrayPrint($arrayName,$flag=''){
           </div>
         </div>
       </div>
-      <!--
-      <div class="panel panel-default" style="margin-top:10px;">
-        <div class="panel-body">
-          <div class="form-group">
-            <label>查詢結果</label>
-            <textarea name="res" cols="40" rows="3" class="form-control" id="res" placeholder="查詢結果" style="margin-top:10px;" readonly></textarea>
-          </div>
-        </div>
-      </div>
-      -->
     </div>
     <div class="col-md-6">
       <div class="box"> 
         <!-- /.box-header -->
         <div class="box-body table-responsive"> 
-          <!--
-            <div><span class="text-danger" id="resultMsg" name="resultMsg"></span></div>
-            <div class="fixed-table-toolbar"><div class="bars pull-left"><div id="toolbar">
-                <button onclick="goAction('delete');" id="removeBtn" class="btn btn-danger"><i class="fa fa-remove"></i> 刪除</button>
-                <button class="btn btn-default" onclick="$('#resultTable').bootstrapTable('checkAll');">全選</button>
-                <button class="btn btn-default" onclick="$('#resultTable').bootstrapTable('uncheckAll');">取消全選</button>
-                <button onclick="goAction('export');" class="btn btn-default">匯出</button>
-                <button class="btn btn-primary" onclick="location.reload();">顯示全部</button>
-                <span class="input-group col-md-4"> <span class="input-group-addon">抽選筆數</span>
-        <input type="text" placeholder="請輸入人數..." value="5" name="num" id="num" class="form-control">
-        <span class="input-group-btn">
-                <button onclick="randomData();" type="button" class="btn btn-danger">立即抽選!</button>
-                </span> </span> </div></div><div class="pull-right search"><input type="text" placeholder="搜尋" class="form-control"></div></div>
-                -->
-          <table id="resultTable" name="resultTable" data-search="true" data-advanced-search="false" data-id-table="advancedTable" data-toggle="table" data-detail-view="false" data-detail-formatter="detailFormatter">
+           <table id="resultTable" name="resultTable" data-search="true" data-advanced-search="false" data-id-table="advancedTable" data-toggle="table" data-detail-view="false" data-detail-formatter="detailFormatter">
             <thead style="background-color:#FFC;">
               <tr class="warning"> 
                 <!--<th data-field="chkid" data-checkbox="true">id</th>-->
@@ -127,7 +103,6 @@ function arrayPrint($arrayName,$flag=''){
                 <th data-field="DATIME" data-sortfield="DATIME" data-align="center" data-sortable="true" class="col-md-2">處理時間</th>
                 <th data-field="STATUS" data-sortfield="STATUS" data-align="left" data-sortable="true">狀態</th>
                 <th data-field="BRHNC" data-sortfield="BRHNC" data-align="left" data-sortable="true">處理單位</th>
-                <!--<th data-field="func" data-align="left" data-formatter="funcFormatter" data-events="funcEvents" class="col-md-2">功能</th>--> 
               </tr>
             </thead>
           </table>
